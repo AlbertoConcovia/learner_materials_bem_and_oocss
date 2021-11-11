@@ -3,6 +3,10 @@
     --dark: rgb(56, 55, 56);
 }
 
+html {
+    font-size: 100%;
+}
+
 img {
     max-width: 200px;
 }
@@ -10,10 +14,19 @@ img {
 /* One light coloured card for Yoda, The Force and BEM/OOCSS. */
 .cardTheForce{
     background-color: var(--turquoise) ;
+    border-style: double;
+    color: white;
+    padding: 1%; 
+    box-shadow: 0.5% 1%;
+    margin: 1%;
 }
 
 /* One dark coloured card for Darth Vader and his CSS hell */
 .cardTheDarkSide{
     background-color: var(--dark) ;
+    border-style: double;
     color: white;
+    padding: 1%; 
+    box-shadow: 0.5% 1%;
+    margin: 1%;
 }
