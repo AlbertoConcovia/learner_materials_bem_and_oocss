@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="./styles.css">
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
@@ -14,24 +16,22 @@
 
     <div class="card-container">
         
-        <!-- One dark coloured card for Darth Vader and his CSS hell -->
         <div class="card cardTheDarkSide">
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
+            <h2 class="card_title">The Dark Side</h2>
+            <img src="./images/vader.jpeg"  alt="Vader" class="card__images">
+            <p class="card__skills">Nesting!</p>
+            <p class="card__skills">Conflict!</p>
+            <p class="card__skills">Specificity Wars!</p>
+            <p class="card__skills">Cookies</p>
         </div>
         
-        <!-- One light coloured card for Yoda, The Force and BEM/OOCSS. -->
         <div class="card cardTheForce">
-            <h2 class="name">The Force</h2>
-            <img src="./images/yoda.jpeg" alt="" class="images">
-            <p class="skills">Love</p>
-            <p >Beauty</p>
-            <p >CSS that Scales!</p>
-            <p >Great warrior. Wars not make one great!</p>
+            <h2 class="card_title">The Force</h2>
+            <img src="./images/yoda.jpeg" alt="Yoda" class="card__images">
+            <p class="card__skills">Love</p>
+            <p class="card__skills">Beauty</p>
+            <p class="card__skills">CSS that Scales!</p>
+            <p class="card__skills">Great warrior. Wars not make one great!</p>
         </div>
 
     </div>
