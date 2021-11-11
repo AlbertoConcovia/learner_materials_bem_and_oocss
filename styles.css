@@ -1,5 +1,6 @@
 :root {
     --turquoise: rgb(109, 209, 201);
+    --dark: rgb(56, 55, 56);
 }
 
 img {
@@ -10,4 +11,9 @@ img {
 .cardTheForce{
     background-color: var(--turquoise) ;
 }
-    
+
+/* One dark coloured card for Darth Vader and his CSS hell */
+.cardTheDarkSide{
+    background-color: var(--dark) ;
+    color: white;
+}
