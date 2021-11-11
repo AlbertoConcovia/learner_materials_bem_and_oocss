@@ -11,9 +11,18 @@ img {
     max-width: 200px;
 }
 
+/* BEM notation to clearly name and structure your CSS to target block, elements and modifiers on the page */
+
+ /* OOCSS to avoid duplication in your code. Remember, "block" styles will affect all cards whereas your modifier styles will change specific, or individual things, like the colour of your cards. */
+
+/* No Ids BEM/OOCSS recommend avoiding Ids because Ids are unique which means they cannot be reused. Using classes avoids specificity wars (if everything is a class, everything has a specificity of 10 which is easy to remember and easy to override  */
+
+/* Try not to select elements using their tag names. On large projects, targetting p when there are lots of ps can get dangerous! 🙈 So again, give classes to everything. */
+
+/* Comments to clearly separate your CSS content i.e. structure vs skins */
+
 /* One light coloured card for Yoda, The Force and BEM/OOCSS. */
-.cardTheForce{
-    background-color: var(--turquoise) ;
+.card{
     border-style: double;
     color: white;
     padding: 1%; 
@@ -21,12 +30,12 @@ img {
     margin: 1%;
 }
 
+/* One light coloured card for Yoda, The Force and BEM/OOCSS. */
+.cardTheForce{
+    background-color: var(--turquoise) ;
+}
+
 /* One dark coloured card for Darth Vader and his CSS hell */
 .cardTheDarkSide{
     background-color: var(--dark) ;
-    border-style: double;
-    color: white;
-    padding: 1%; 
-    box-shadow: 0.5% 1%;
-    margin: 1%;
 }
