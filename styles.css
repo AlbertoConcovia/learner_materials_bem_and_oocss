@@ -1,7 +1,13 @@
-/* You can delete / re-write this img class  */
+:root {
+    --turquoise: rgb(109, 209, 201);
+}
 
 img {
     max-width: 200px;
 }
 
-/* Happy coding! */
+/* One light coloured card for Yoda, The Force and BEM/OOCSS. */
+.cardTheForce{
+    background-color: var(--turquoise) ;
+}
+    
