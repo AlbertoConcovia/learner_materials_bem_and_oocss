@@ -1,14 +1,14 @@
-$turquoise: rgb(93, 149, 187);
+$turquoise: rgb(177, 202, 219);
 $turquoise-1: rgb(103, 163, 156);
 $turquoise-2: rgb(132, 219, 212);
-$dark: rgb(49, 36, 49);
+$dark: rgb(34, 26, 34);
 $dark-1: rgb(124, 124, 124);
 $dark-2: rgb(214, 210, 210);
 $white-1: rgba(236, 229, 229, 0.993);
 $white: white;
 $danger: rgb(194, 18, 18);
-$danger-hover : rgba(143, 30, 39, 0.904);
-$green-1: rgb(58, 150, 58);
+$danger-hover: rgba(143, 30, 39, 0.904);
+$green-1: rgb(139, 197, 139);
 
 $font-family: "Sofia", sans-serif;
 
@@ -35,13 +35,11 @@ $card_margin: 1%;
 }
 
 .card {
-  border-style: double;
   margin: $card_margin;
   max-width: $card_width;
   min-width: $card_width;
   max-height: $card_height;
   min-height: $card_height;
-  box-shadow: 0.5% 1%;
   border-radius: 25px;
   text-align: center;
   color: $white;
@@ -50,6 +48,7 @@ $card_margin: 1%;
 .cardTheForce {
   background-color: $turquoise;
   font-family: $font-family;
+  color: $dark;
 }
 .cardTheForce:hover {
   background-color: $turquoise-1;
@@ -65,13 +64,13 @@ $card_margin: 1%;
 }
 
 .card_title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
 .card_name {
   font-size: 1.8rem;
-  text-align: center
+  text-align: center;
 }
 .card_name:hover {
   font-size: 1.85rem;
@@ -91,6 +90,7 @@ $card_margin: 1%;
   margin-left: auto;
   margin-right: auto;
   font-size: 1rem;
+  border-radius: 25px;
 }
 .card_buttonDanger {
   background-color: $danger;
@@ -98,10 +98,8 @@ $card_margin: 1%;
 }
 .card_buttonTheForce {
   background-color: $green-1;
-  color: $white-1;
+  color: $dark;
 }
-
-
 
 /* ------------------------------ @media ------------------------------------------*/
 
@@ -122,5 +120,3 @@ $card_container_max_width_media: 100%;
     background-color: $dark-2;
   }
 }
-
-
