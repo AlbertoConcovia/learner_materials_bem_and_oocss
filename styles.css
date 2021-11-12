@@ -15,7 +15,7 @@
 }
 
 .card-container-theForce {
-  border-color: #95c7e9;
+  border-color: #5d95bb;
   max-width: 46%;
 }
 
@@ -30,22 +30,20 @@
           box-shadow: 0.5% 1%;
   border-radius: 25px;
   text-align: center;
+  color: white;
 }
 
 .cardTheForce {
-  background-color: #95c7e9;
+  background-color: #5d95bb;
   font-family: "Sofia", sans-serif;
-  color: white;
 }
 
 .cardTheForce:hover {
   background-color: #67a39c;
-  color: white;
 }
 
 .cardTheDarkSide {
   background-color: #312431;
-  color: #7c7c7c;
 }
 
 .cardTheDarkSide:hover {
@@ -54,7 +52,6 @@
 }
 
 .card_title {
-  color: #d6d2d2;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -85,12 +82,12 @@
 }
 
 .card_buttonDanger {
-  background-color: #df0e0e;
+  background-color: #c21212;
   color: rgba(236, 229, 229, 0.993);
 }
 
 .card_buttonTheForce {
-  background-color: #53c453;
+  background-color: #3a963a;
   color: rgba(236, 229, 229, 0.993);
 }
 
