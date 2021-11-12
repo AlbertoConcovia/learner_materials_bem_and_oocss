@@ -1,72 +1,71 @@
-html {
-  font-size: 100%;
-}
-
 .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1%;
 }
 
 .card-container-theDarkSide {
-  background-color: #d6d2d2;
-  max-width: 50%;
+  max-width: 46%;
+  border-color: #312431;
 }
 
 .card-container-theForce {
-  background-color: #b7e4df;
-  max-width: 50%;
+  border-color: #95c7e9;
+  max-width: 46%;
 }
 
 .card {
   border-style: double;
-  padding: 1%;
+  margin: 1%;
+  max-width: 240px;
+  min-width: 240px;
+  max-height: 440px;
+  min-height: 440px;
   -webkit-box-shadow: 0.5% 1%;
           box-shadow: 0.5% 1%;
-  margin: 1%;
-  max-width: 200px;
+  border-radius: 25px;
+  text-align: center;
 }
 
 .cardTheForce {
-  background-color: #6dd1c9;
+  background-color: #95c7e9;
   font-family: "Sofia", sans-serif;
-  color: rgba(236, 229, 229, 0.993);
+  color: white;
 }
 
 .cardTheForce:hover {
-  background-color: #84dbd4;
+  background-color: #67a39c;
   color: white;
 }
 
 .cardTheDarkSide {
-  background-color: #383738;
+  background-color: #312431;
   color: #7c7c7c;
 }
 
 .cardTheDarkSide:hover {
-  background-color: #383738;
-  color: #d6d2d2;
+  background-color: rgba(143, 30, 39, 0.904);
+  color: white;
 }
 
 .card_title {
   color: #d6d2d2;
-  font-size: 1.70rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .card_name {
-  font-size: 1.70rem;
-  color: red;
-  background-color: yellow;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .card_name:hover {
-  font-size: 1.75rem;
+  font-size: 1.85rem;
 }
 
 .card__images {
@@ -74,23 +73,55 @@ html {
 }
 
 .card__skills {
-  font-size: 1.00rem;
+  font-size: 1.45rem;
 }
 
 .card_button {
   border-style: solid;
   padding: 2%;
-  margin: 1%;
-  font-size: 1.00rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
 }
 
 .card_buttonDanger {
-  background-color: #df1717;
+  background-color: #df0e0e;
   color: rgba(236, 229, 229, 0.993);
 }
 
 .card_buttonTheForce {
   background-color: #53c453;
   color: rgba(236, 229, 229, 0.993);
+}
+
+/* ------------------------------ @media ------------------------------------------*/
+/* On screens that are 320px or more*/
+@media screen and (max-width: 320px) {
+  .card-container {
+    max-width: 100%;
+    background-color: #7c7c7c;
+  }
+}
+
+/* On screens that are 700px or more*/
+@media screen and (max-width: 700px) {
+  .card-container {
+    max-width: 100%;
+    background-color: #d6d2d2;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #e3eeb5;
+}
+
+.body-title {
+  background-color: #ca7b56;
+  text-align: center;
+  padding: 1%;
 }
 /*# sourceMappingURL=styles.css.map */

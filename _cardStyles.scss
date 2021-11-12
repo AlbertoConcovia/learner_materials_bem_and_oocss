@@ -1,0 +1,129 @@
+$turquoise: rgb(149, 199, 233);
+$turquoise-1: rgb(103, 163, 156);
+$turquoise-2: rgb(132, 219, 212);
+$dark: rgb(49, 36, 49);
+$dark-1: rgb(124, 124, 124);
+$dark-2: rgb(214, 210, 210);
+$white-1: rgba(236, 229, 229, 0.993);
+$white: white;
+$danger: rgb(223, 14, 14);
+$danger-hover : rgba(143, 30, 39, 0.904);
+$green-1: rgb(83, 196, 83);
+
+$font-family: "Sofia", sans-serif;
+
+$card_width: 240px;
+$card_height: 440px;
+$card_container_max_width: 46%;
+
+$card_padding: 1%;
+$card_margin: 1%;
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1%;
+}
+.card-container-theDarkSide {
+  max-width: $card_container_max_width;
+  border-color: $dark;
+}
+.card-container-theForce {
+  border-color: $turquoise;
+  max-width: $card_container_max_width;
+}
+
+.card {
+  border-style: double;
+  margin: $card_margin;
+  max-width: $card_width;
+  min-width: $card_width;
+  max-height: $card_height;
+  min-height: $card_height;
+  box-shadow: 0.5% 1%;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.cardTheForce {
+  background-color: $turquoise;
+  font-family: $font-family;
+  color: $white;
+}
+.cardTheForce:hover {
+  background-color: $turquoise-1;
+  color: $white;
+}
+
+.cardTheDarkSide {
+  background-color: $dark;
+  color: $dark-1;
+}
+
+.cardTheDarkSide:hover {
+  background-color: $danger-hover;
+  color: $white;
+}
+
+.card_title {
+  color: $dark-2;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card_name {
+  font-size: 1.8rem;
+  text-align: center
+}
+.card_name:hover {
+  font-size: 1.85rem;
+}
+
+.card__images {
+  max-width: 200px;
+}
+
+.card__skills {
+  font-size: 1.45rem;
+}
+
+.card_button {
+  border-style: solid;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+.card_buttonDanger {
+  background-color: $danger;
+  color: $white-1;
+}
+.card_buttonTheForce {
+  background-color: $green-1;
+  color: $white-1;
+}
+
+
+
+/* ------------------------------ @media ------------------------------------------*/
+
+$card_container_max_width_media: 100%;
+
+/* On screens that are 320px or more*/
+@media screen and (max-width: 320px) {
+  .card-container {
+    max-width: $card_container_max_width_media;
+    background-color: $dark-1;
+  }
+}
+
+/* On screens that are 700px or more*/
+@media screen and (max-width: 700px) {
+  .card-container {
+    max-width: $card_container_max_width_media;
+    background-color: $dark-2;
+  }
+}
+
+
