@@ -1,0 +1,94 @@
+$turquoise: rgb(109, 209, 201);
+$turquoise-1: rgb(183, 228, 223);
+$turquoise-2: rgb(132, 219, 212);
+$dark: rgb(56, 55, 56);
+$dark-1: rgb(124, 124, 124);
+$dark-2: rgb(214, 210, 210);
+$white-1:  rgba(236, 229, 229, 0.993);
+$white: white;
+$danger:  rgb(223, 23, 23);
+$green-1: rgb(83, 196, 83);
+
+html {
+    font-size: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-container-theDarkSide{
+    background-color: $dark-2;
+    max-width: 50%;
+}
+.card-container-theForce{
+    background-color: $turquoise-1;
+    max-width: 50%;
+}
+
+.card{
+    border-style: double;
+    padding: 1%; 
+    box-shadow: 0.5% 1%;
+    margin: 1%;
+    max-width: 200px;
+}
+
+.cardTheForce{
+    background-color: $turquoise;
+    font-family: "Sofia", sans-serif;
+    color: $white-1;
+}
+.cardTheForce:hover{
+    background-color: $turquoise-2;
+    color: $white;
+}
+
+.cardTheDarkSide{
+    background-color: $dark;
+    color: $dark-1;
+}
+
+.cardTheDarkSide:hover{
+    background-color: $dark;
+    color: $white;
+}
+
+.card_title{
+    color: $dark-2;
+    font-size: 1.70rem;
+}
+
+.card_name{
+    font-size: 1.70rem;
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+.card_name:hover{
+    font-size: 1.75rem;
+}
+
+.card__images {
+    max-width: 200px;
+}
+
+.card__skills{
+    font-size: 1.00rem;
+}
+
+.card_button{
+    border-style: solid;
+    padding: 2%; 
+    margin: 1%; 
+    font-size: 1.00rem;
+}
+.card_buttonDanger{
+    background-color: $danger;
+    color: $white-1;
+}
+.card_buttonTheForce{
+    background-color: $green-1;
+    color: $white-1;
+}
