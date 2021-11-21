@@ -2,6 +2,9 @@
 
 $brown-1: rgb(202, 123, 86);
 $body-background-color: rgb(227, 238, 181);
+$body--title-padding: 1%;
+
+//*********************************************//
 
 html {
   font-size: 100%;
@@ -11,8 +14,8 @@ body {
   background-color: $body-background-color;
 }
 
-.body-title {
+.body--title {
   background-color: $brown-1;
   text-align: center;
-  padding: 1%;
+  padding: $body--title-padding;
 }

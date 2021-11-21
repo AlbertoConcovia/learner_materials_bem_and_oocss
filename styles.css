@@ -1,4 +1,4 @@
-.card-container {
+.card__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,12 +9,12 @@
   margin: 1%;
 }
 
-.card-container-theDarkSide {
+.card__container--dark-side {
   max-width: 46%;
   border-color: #221a22;
 }
 
-.card-container-theForce {
+.card__container--the-force {
   border-color: #b1cadb;
   max-width: 46%;
 }
@@ -30,36 +30,36 @@
   color: white;
 }
 
-.cardTheForce {
+.card--the-force {
   background-color: #b1cadb;
   font-family: "Sofia", sans-serif;
   color: #221a22;
 }
 
-.cardTheForce:hover {
+.card--the-force:hover {
   background-color: #67a39c;
 }
 
-.cardTheDarkSide {
+.card--dark-side {
   background-color: #221a22;
 }
 
-.cardTheDarkSide:hover {
+.card--dark-side:hover {
   background-color: rgba(143, 30, 39, 0.904);
   color: white;
 }
 
-.card_title {
+.card--title {
   font-size: 1.4rem;
   text-align: center;
 }
 
-.card_name {
+.card--name {
   font-size: 1.8rem;
   text-align: center;
 }
 
-.card_name:hover {
+.card--name:hover {
   font-size: 1.85rem;
 }
 
@@ -71,7 +71,7 @@
   font-size: 1.45rem;
 }
 
-.card_button {
+.card__button {
   border-style: solid;
   padding: 2%;
   margin-left: auto;
@@ -80,12 +80,12 @@
   border-radius: 25px;
 }
 
-.card_buttonDanger {
+.card__button--danger {
   background-color: #c21212;
   color: rgba(236, 229, 229, 0.993);
 }
 
-.card_buttonTheForce {
+.card__button--the-force {
   background-color: #8bc58b;
   color: #221a22;
 }
@@ -93,7 +93,7 @@
 /* ------------------------------ @media ------------------------------------------*/
 /* On screens that are 320px or more*/
 @media screen and (max-width: 320px) {
-  .card-container {
+  .card__container {
     max-width: 100%;
     background-color: #7c7c7c;
   }
@@ -101,7 +101,7 @@
 
 /* On screens that are 700px or more*/
 @media screen and (max-width: 700px) {
-  .card-container {
+  .card__container {
     max-width: 100%;
     background-color: #d6d2d2;
   }
@@ -115,7 +115,7 @@ body {
   background-color: #e3eeb5;
 }
 
-.body-title {
+.body--title {
   background-color: #ca7b56;
   text-align: center;
   padding: 1%;
