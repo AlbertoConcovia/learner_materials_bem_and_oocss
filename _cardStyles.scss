@@ -16,20 +16,20 @@ $card__container--max-width: 46%;
 $card__container--display: flex;
 $card__container--flex-wrap: wrap;
 $card__container--justify-content: space-around;
+$card__title-font-size: 1.4rem;
+$card__title-text-align: center;
+$card__button--padding: 2%;
+$card__button--font-size: 1rem;
+$card__skills-font-size: 1.45rem;
+$card__images-max-width: 200px;
 
-$card--title-font-size: 1.4rem;
-$card--title-text-align: center;
 $card--width: 240px;
 $card--height: 440px;
 $card--padding: 1%;
 $card--margin: 1%;
-$card--images-max-width: 200px;
-$card__button--padding: 2%;
-$card__button--font-size: 1rem;
-$card__skills-font-size: 1.45rem;
-$card--name-font-size: 1.8rem;
+$card__name-font-size: 1.8rem;
 $card--text-align: center;
-$card--name-hover-font-size: 1.85rem;
+$card__name-hover-font-size: 1.85rem;
 
 $border--radius: 25px;
 
@@ -79,21 +79,21 @@ $border--radius: 25px;
   color: $white;
 }
 
-.card--title {
-  font-size: $card--title-font-size;
-  text-align: $card--title-text-align;
+.card__title {
+  font-size: $card__title-font-size;
+  text-align: $card__title-text-align;
 }
 
-.card--name {
-  font-size: $card--name-font-size;
+.card__name {
+  font-size: $card__name-font-size;
   text-align: $card--text-align;
 }
-.card--name:hover {
-  font-size: $card--name-hover-font-size;
+.card__name:hover {
+  font-size: $card__name-hover-font-size;
 }
 
 .card__images {
-  max-width: $card--images-max-width;
+  max-width: $card__images-max-width;
 }
 
 .card__skills {
